@@ -176,8 +176,30 @@ body{
 .work-management{
     margin-top: 60px;
 }
-
 }
+/* Management area completed */
+/* extension area  */
+.extension-area{
+    padding: 140px 0;
+    background-color: #043873;
+}
+.extension-area .theme-text h3{
+    color: white;
+}
+.extension-area .theme-text p{
+    color: white;
+}
+@media (max-width: 991px){
+    .extension-area{
+        padding: 80px 0;
+    }
+    .extension-area .theme-button{
+        width: 100%;
+    }
+    .management-image{
+        margin-top: 60px;
+    }
+    /* Extension area completed */
 
 
 
