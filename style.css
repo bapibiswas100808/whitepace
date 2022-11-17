@@ -274,8 +274,27 @@ body{
         }
     }
     /* pricing area completed */
+    /* your work CSS */
+    .your-work-area{
+        padding: 140px 0;
+        background-color: #043873;
 
-
+    }
+    .your-work-area .theme-text h3{
+        color: white;
+    }
+    .your-work-area .theme-text p{
+        color: white;
+    }
+    @media (max-width: 991px){
+        .your-work-area{
+            padding: 80px 0;
+        }
+        .your-work-area .theme-text h3{
+            font-size: 24px;
+        }
+    }
+    /* your work area completed */
 
 
 /*Main Area CSS  */
