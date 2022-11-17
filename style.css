@@ -36,6 +36,15 @@ body{
     border-radius: 8px;
     padding: 16px 24px !important;
 }
+.theme-button-three{
+    display: inline-block;
+    background:white;
+    color: #043873 !important;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    border: 1px solid #212529;
+    text-decoration: none;
+}
 .theme-text h3{
     font-size: 68px;
     color: #212529;
@@ -112,7 +121,7 @@ body{
     }
     .header-area .nav-link::after{
         position: absolute;
-        right: 12px;
+        right: 25px;
         top: 50%;
         transform: translateY(-50%);
     }
@@ -139,6 +148,9 @@ body{
 }
 
 @media (max-width: 991px){
+    .hero-area{
+        padding: 80px 0;
+    }
     .hero-text h3{
         text-align: center;
         font-weight: 700;
@@ -216,6 +228,52 @@ body{
         }
     }
     /* customize area completed */
+    /* pricing area CSS */
+    .pricing-area{
+        padding: 140px 0;
+        background-color: white;
+    }
+    .single-pricing{
+        color: #212529;
+        border: 1px solid #FFE492;
+        border-radius: 10px;
+        padding: 40px 44px;
+    }
+    .single-pricing h4{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .single-pricing h2{
+        font-size: 36px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+    .single-pricing ul{
+        margin: 0;
+        padding: 0;
+        margin: 25px 0;
+    }
+    .single-pricing ul li{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    .special-pricing{
+        background-color: #043873;
+        color: white;
+        padding: 80px 44px;
+    }
+    .special-pricing h2{
+        color: #FFE492;
+    }
+    @media (max-width: 991px){
+        .pricing-area{
+            padding: 80px 0;
+        }
+        .single-pricing{
+            margin-bottom: 30px;
+        }
+    }
+    /* pricing area completed */
 
 
 
