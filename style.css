@@ -295,6 +295,18 @@ body{
         }
     }
     /* your work area completed */
+    /* your task area CSS */
+    .your-task-area{
+        padding: 140px 0;
+        background-color: white;
+    }
+    @media (max-width: 991px){
+        .your-task-area{
+            padding: 80px 0;
+        }
+    }
+    /*your task area completed  */
+
 
 
 /*Main Area CSS  */
