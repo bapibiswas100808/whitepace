@@ -13,14 +13,21 @@ body{
     font-weight: 400;
     font-size: 18px;
     color: white;
-    background-color: rgb(170, 208, 241); 
+    background-color: rgb(170, 208, 241);
+    line-height: 1.7; 
 }
 .theme-button{
     display: inline-block;
     background: #4F9CF9;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.theme-button:hover{
+    background: #FFE492;
+    color: #043873;
 }
 .theme-button-two{
     display: inline-block;
@@ -28,7 +35,6 @@ body{
     color: #043873 !important;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
 }
 /* Header CSS */
 .header-area{
@@ -45,17 +51,23 @@ body{
     border: none;
     box-shadow: none;
 }
+.header-area .theme-button{
+    margin-left: 24px;
+}
+.header-area .theme-button-two{
+    margin-left: 24px;
+}
 .theme-button img{
     padding-left: 10px;
 }
 @media (max-width: 991px){
-    .theme-button{
+    .header-area .theme-button{
         width: 100%;
         text-align: center;
         margin-left: 0px;
         margin-top: 15px;
     }
-    .theme-button-two{
+    .header-area .theme-button-two{
         width: 100%;
         text-align: center;
         margin-left: 0px;
@@ -72,3 +84,37 @@ body{
         transform: translateY(-50%);
     }
 }
+/* Header CSS End */
+.hero-area{
+    padding: 140px 0;
+    background-image: url(img/Hero-section.png);
+    background-size: cover;
+    background-position: center;
+}
+.hero-text h3{
+    font-weight: 700;
+    font-size: 52px;
+}
+.hero-area .theme-button{
+    margin-top: 30px;
+}
+
+@media (max-width: 991px){
+    .hero-text h3{
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .hero-area .theme-button{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .hero-image{
+        padding-bottom: 50px;
+    }
+}
+
+/*Main Area CSS  */
