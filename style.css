@@ -306,7 +306,27 @@ body{
         }
     }
     /*your task area completed  */
-
-
+    /* Sponsor area CSS */
+    .sponsor-area{
+        padding: 140px 0;
+        background-color: white;
+    }
+    .sponsor-area .theme-text{
+        margin-bottom: 80px;
+    }
+    .single-sponsor img{
+        height: 55px;
+        width: auto;
+    }
+    @media (max-width: 991px){
+        .sponsor-area{
+        padding-top: 80px;
+        padding-bottom: 30px;    
+        }
+        .single-sponsor img{
+        margin-bottom: 50px;
+        }
+    }
+    /*   <!-- Sponsor area completed --> */
 
 /*Main Area CSS  */
