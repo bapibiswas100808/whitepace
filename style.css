@@ -131,7 +131,7 @@ body{
 /* Hero area CSS Start */
 .hero-area{
     padding: 140px 0;
-    background-image: url("img/hero-section.png");
+    background-image: url("img/hero-bck.png");
     background-size: cover;
     background-position: center;
 }
