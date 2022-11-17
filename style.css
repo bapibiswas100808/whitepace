@@ -199,7 +199,23 @@ body{
     .management-image{
         margin-top: 60px;
     }
+}
     /* Extension area completed */
+    
+      /* Customize area CSS */
+      .customize-area{
+        padding: 140px 0;
+        background-color:white;
+      }
+      @media (max-width: 991px){
+        .customize-area{
+            padding: 80px 0;
+        }
+        .customize-area .theme-button{
+            width: 100%;
+        }
+    }
+    /* customize area completed */
 
 
 
