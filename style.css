@@ -416,5 +416,44 @@ body{
     .testimonial-area .owl-dots button.active{
         background-color: #043873 !important;
     }
-
+    /* Testimonial area completed */
+    /* Start trial area CSS */
+    .trial-area{
+        padding: 140px 0;
+        background-color: #043873;
+    }
+    .trial-text h3{
+        font-size: 60px;
+    }
+    .trial-text p{
+        font-size: 24px;
+    }
+    .trial-area .theme-button{
+        margin: 20px 0;
+    }
+    .trial-image{
+        margin-top: 30px;
+    }
+    .trial-image a{
+        margin: 0 20px;
+        text-decoration: none;
+    }
+    @media (max-width: 991px){
+        .trial-area{
+            padding: 80px 0;
+        } 
+        .trial-text h3{
+            font-size: 36px;
+        }
+        .trial-text p{
+            font-size: 18px;
+        }
+        .trial-area .theme-button{
+            width: 100%;
+        }
+        .trial-image a{
+            margin: 0;
+            margin-right: 40px;
+        }
+    }
 /*Main Area CSS  */
