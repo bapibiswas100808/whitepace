@@ -327,6 +327,38 @@ body{
         margin-bottom: 50px;
         }
     }
-    /*   <!-- Sponsor area completed --> */
+    /*  Sponsor area completed */
+    /* Apps area CSS */
+    .apps-area{
+        padding: 140px 0;
+        background-image: url("img/hero-bck.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .apps-area .theme-text{
+        margin-left: 50px;
+    }
+    .apps-area .theme-text h3{
+        color: white;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+    }
+    .apps-area .theme-text p{
+        color: white;
+    }
+    @media (max-width: 991px){
+    .apps-area{
+        padding: 80px 0;
+    }
+    .apps-area .apps-image{
+        margin-bottom: 50px;
+    }
+    .apps-area .theme-text h3{
+        font-size: 36px;
+        line-height:44px;
+    }
+    }
+    /* Apps area Completed */
 
 /*Main Area CSS  */
