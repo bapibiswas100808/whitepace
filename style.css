@@ -151,16 +151,16 @@ body{
     .hero-area{
         padding: 80px 0;
     }
-    .hero-text h3{
+    .hero-text{
         text-align: center;
+    }
+    .hero-text h3{
+        /* text-align: center; */
         font-weight: 700;
         font-size: 36px;
     }
 
     .hero-area .theme-button{
-        width: 100%;
-        text-align: center;
-        margin-left: 0px;
         margin-bottom: 50px;
     }
     .hero-image{
@@ -179,7 +179,6 @@ body{
 }
 @media (max-width: 991px){
 .management-area .theme-button{
-    width: 100%;
     margin-bottom: 50px;
 }
 .management-area{
@@ -205,9 +204,6 @@ body{
     .extension-area{
         padding: 80px 0;
     }
-    .extension-area .theme-button{
-        width: 100%;
-    }
     .management-image{
         margin-top: 60px;
     }
@@ -222,9 +218,6 @@ body{
       @media (max-width: 991px){
         .customize-area{
             padding: 80px 0;
-        }
-        .customize-area .theme-button{
-            width: 100%;
         }
     }
     /* customize area completed */
@@ -448,13 +441,121 @@ body{
         .trial-text p{
             font-size: 18px;
         }
-        .trial-area .theme-button{
-            width: 100%;
-        }
         .trial-image a{
             margin: 0;
             margin-right: 40px;
         }
     }
     /* Trial area completed */
-/*Main Area CSS  */
+/*Main Area CSS Completed */
+        .footer-area{
+            padding-top: 140px;
+            background-color: #043873;
+            color: #FFFFFF;
+            border-top: 1px solid #4F9CF9;
+        }
+        .footer-area .logo-description p{
+            margin-bottom: 0;
+        }
+        .footer-area .footer-top{
+            padding-bottom: 100px;
+            border-bottom: 1px solid #4F9CF9;
+        }
+        .single-description{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            color: #F7F7EE;
+            }
+        .single-info{
+        margin-left: 50px;
+    }
+        .single-info ul li a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+        .single-info ul li a:hover{
+        color: #FFE492;
+    }
+        .single-info ul{
+        padding-left: 0;
+    }
+        .single-info ul li{
+            list-style: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            color: #F7F7EE;
+    }
+        .footer-bottom{
+            padding: 32px 0;
+        }
+        .footer-bottom .special-link a{
+            text-decoration: none;
+            color: #F7F7EE;
+        }
+        .footer-bottom .special-link button{
+            color: #FFFFFF;
+        }
+        .footer-bottom .footer-special a{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            margin-left: 32px;
+        }
+        .footer-bottom .dropdown-menu{
+            background-color: #043873;
+        }
+        .footer-bottom .dropdown-menu a{
+            color: #212529;
+            text-decoration: none;
+            background-color: #4F9CF9;
+        }
+        .footer-special{
+            text-align: right;
+        }
+
+    @media (max-width: 991px){
+        .footer-area{
+            text-align: center;
+            padding-top: 80px;
+        }
+        .single-description{
+            margin-top: 30px;
+        }
+        .single-info{
+            margin:50px 0px;
+        }
+        .single-info ul li{
+            margin: 15px 0;
+        }
+        .footer-area .footer-top{
+            border-bottom: none;
+        }
+        .footer-bottom{
+            padding: 0 0;
+        }
+        .footer-bottom .special-link{
+            margin-bottom: 32px;
+        }
+        .footer-bottom .special-text{
+            margin-bottom: 32px;
+        }
+        .footer-special{
+            border-top: 1px solid #2E4E73;
+            text-align: center !important;
+        }
+    
+        .footer-bottom .footer-special a{
+        margin-left: 0px;
+        padding: 10px 10px;
+    }
+
+
+}
