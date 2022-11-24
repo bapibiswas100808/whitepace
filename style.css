@@ -151,15 +151,15 @@ body{
 }
     /* Extension area completed */
     
-      /* Customize area CSS */
-      .customize-area{
-        padding: 140px 0;
-        background-color:white;
+/* Customize area CSS */
+.customize-area{
+    padding: 140px 0;
+    background-color:white;
       }
-      .customize-area .theme-text h3 span::after{
-        background-image: url("img/customize-element.png");
-        background-size: contain;
-        background-position: bottom;
+.customize-area .theme-text h3 span::after{
+    background-image: url("img/pricing-element.png");
+    background-size: contain;
+    background-position: bottom;
     }
     /* customize area completed */
     /* pricing area CSS */
@@ -508,11 +508,17 @@ body{
         padding-bottom: 50px;
     }
     /* Management area */
+    .management-area{
+        padding: 80px 0;
+    }
     .management-area .theme-button{
         margin-bottom: 50px;
     }
-    .management-area{
-        padding: 80px 0;
+    .management-area .theme-text h3 span::after{
+        background-image: url("img/extension-element.png");
+        background-size: contain;
+        background-position: top;
+        top: 30px;
     }
     .work-management{
         margin-top: 60px;
@@ -520,12 +526,13 @@ body{
     /* Extension area */
     .extension-area{
         padding: 80px 0;
+        position: relative;
     }
     .extension-area .theme-text h3 span::after{
         background-image: url("img/extension-element.png");
-        background-size: contain;
-        background-position: bottom;
-        top: 0px;
+        background-position: top;
+        position: absolute;
+        top: 30px;
     }
     .management-image{
         margin-top: 60px;
@@ -580,6 +587,9 @@ body{
     }
     .apps-area .apps-image{
         margin-bottom: 50px;
+    }
+    .apps-area .theme-text{
+        margin-left: 0px;
     }
     .apps-area .theme-text h3{
         font-size: 36px;
